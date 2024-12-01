@@ -1,0 +1,48 @@
+/* MoviesPage.css */
+
+/* Card Styling */
+.movie-card {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #e6f0ff !important;  /* Light purple background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+.movie-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px; /* Add space above the button */
+}
+
+.movie-btn:hover {
+  background-color: #0056b3;
+}
+
+.movie-card img {
+  object-fit: cover;
+  border-radius: 8px;
+  max-height: 200px; /* Restrict image height */
+}
+
+.movie-card .MuiCardContent-root {
+  padding: 16px;
+  background-color: white; /* White background for content */
+}
+
+/* Add some spacing and styling for the movie details */
+.movie-card .MuiTypography-root {
+  color: #495057; /* Dark text for readability */
+}

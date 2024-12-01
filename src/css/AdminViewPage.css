@@ -1,0 +1,45 @@
+/* MoviesPage.css */
+
+/* Specific styles for AdminViewPage */
+.admin-view-page .table {
+  margin-top: 20px;
+}
+
+.admin-view-page th, .admin-view-page td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.admin-view-page th {
+  background-color: #f2f2f2;
+  color: #495057;
+}
+
+.admin-view-page td {
+  background-color: #ffffff;
+}
+
+.admin-view-page .table thead th {
+  background-color: #007bff;
+  color: white;
+}
+
+.admin-view-page .btn-sm {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.admin-view-page button {
+  border-radius: 4px;
+}
+
+/* Optional styling for the action button */
+.admin-view-page .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.admin-view-page .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import LogoutButton from './pages/LogoutButton';
 import  AddMoviePage from './pages/AddMoviePage';
+import  MoviesPage from './pages/MoviesPage';
 
 
 import Profile from './pages/Profile';
@@ -25,6 +26,7 @@ function App() {
             <Route path="*" element={<ErrorPage />} />
             <Route path="/" element={<Home />} />
             <Route path="/add-movie" element={<AddMoviePage />} />
+            <Route path="/movies" element={<MoviesPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<LogoutButton />} />
             <Route path="/profile" element={<Profile />} />
