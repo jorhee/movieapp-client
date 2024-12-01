@@ -1,0 +1,31 @@
+/* Ensure the entire viewport is used */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Ensure the main container grows to push the footer down */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of viewport */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure footer sticks to the bottom */
+.footer {
+  margin-top: auto;
+}
+
+/* Remove any unwanted margins from Bootstrap or other styles */
+body > * {
+  margin-bottom: 0;
+}
