@@ -5,7 +5,7 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import LogoutButton from './pages/LogoutButton';
-
+import  AddMoviePage from './pages/AddMoviePage';
 
 
 import Profile from './pages/Profile';
@@ -24,7 +24,7 @@ function App() {
           <Routes>
             <Route path="*" element={<ErrorPage />} />
             <Route path="/" element={<Home />} />
-            <Route path="/addworkout" element={<Home />} />
+            <Route path="/add-movie" element={<AddMoviePage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<LogoutButton />} />
             <Route path="/profile" element={<Profile />} />

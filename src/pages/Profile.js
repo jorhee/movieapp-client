@@ -61,18 +61,9 @@ export default function Profile() {
                             <h1 className="fs-6 text-primary fw-semibold">Personal Profile</h1>
                             <h2 className="mt-1 fw-semibold fs-4">{`${details.firstName} ${details.lastName}`}</h2>
                             <hr />
-                            <h2 className="fs-4 text-primary fw-semibold">Address Book</h2>
-                            <h3 className="mt-1 mb-0 fs-6">Default Shipping Address</h3>
                             <hr className="my-1" />
                             <ul>
                                 <li>Email: {details.email}</li>
-                                <li>Mobile No: {details.mobileNo}</li>
-                            </ul>
-                            <h3 className="mt-1 mb-0 fs-6">Default Billing Address</h3>
-                            <hr className="my-1" />
-                            <ul>
-                                <li>Email: {details.email}</li>
-                                <li>Mobile No: {details.mobileNo}</li>
                             </ul>
                             {/* Button to reset password */}
                             <Button variant="warning" className="px-5 w-25 fw-semibold" onClick={() => setShowResetPassword(true)}>
